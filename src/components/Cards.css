@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  background-color: rgb(238, 166, 10);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn button:hover {
+  background-color: darkgreen;
+  transition: background-color 0.3s ease;
+}
+.outlined-btn {
+  background-color: transparent;
+  color: rgb(238, 166, 10);
+  border: 2px solid rgb(238, 166, 10);
+}
+
+.outlined-btn:hover {
+  background-color: rgba(238, 166, 10, 0.1);
+  transition: background-color 0.3s ease;
+}
+.centered-text {
+  text-align: center;
+  line-height: 50px; /* Set line height to match button height */
+}
+
+@media (max-width: 600px) {
+  .btn {
+    text-align: center;
+    margin: 20px auto; /* Adjust margin for better centering */
+  }
+}

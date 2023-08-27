@@ -1,0 +1,94 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 20px;
+  margin: 15px;
+  background:#e8e8e8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.5s;
+  border-radius: 10px;
+}
+
+
+.Card {
+  box-sizing: border-box;
+height: 550px;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.Card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.Card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+
+.Card img {
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.Card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: green;
+}
+
+.Card p {
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.Card span {
+  font-size: 14px;
+}
+
+.Card .button1,
+.Card .button2 {
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Card .button1 {
+  background-color: #eeea10;
+  color: white;
+}
+
+.Card .button1:hover {
+  background-color: #c0bd0e;
+}
+
+.Card .button2 {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Card .button2:hover {
+  background-color: #45a049;
+}

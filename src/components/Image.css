@@ -1,0 +1,21 @@
+ .img {
+    width: 600px;
+    height: 600px; 
+    overflow: hidden; 
+    margin: 0 auto;
+    margin-top:180px;
+   margin-bottom: 10px;
+    
+  }
+  
+  .img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 4px 2px 8px 4px solid white;
+  } 
+  
+
+
+   
